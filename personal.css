@@ -53,54 +53,85 @@ table {
 /********************* END OF CSS RESET *********************/
 
 
-header {
-    background-color:#FB7559;
-    text-align: center;
-    font-family: 'Lobster', cursive;
-    padding-top: 30px;
-}
-
-
 body {
     margin: none;
 }
 
-h2{
-    font-size: 30px;
+
+/********** HEADER *********/ 
+
+header {
+    background: url(../28H.jpg) center center;
+    background-size: 800px 450px;
+    background-size: cover;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    height: 450px;
+
+
+
 }
 
-h1 {
-    font-size: 40px;
-    font-weight: bold;
+div {
+    align-items: center;
 }
+
+
+
+.head {
+    
+    margin-top: 100px; 
+    display: inline-block;
+    padding: 2.2em;
+    border: 10px solid black;
+    margin-left: 28.5%;
+    margin-right: 28.5%; 
+    min-width: 1170;
+}
+
+
+
+.head-a { 
+    text-align: center;
+    font-size: 60px;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+    letter-spacing: 0.05em;
+    
+}
+
+.head-b {
+   font-size: 20px;
+    color: black;
+    padding-right: 20px;
+    padding-left: 20px;
+    letter-spacing: 0.1em;
+    padding-top: 20px;
+      
+    
+    
+}
+
+
+.topnav {
+    float: right;
+    margin: 30px 30px 0 0; 
+    
+}
+
+a {
+    display: inline-block;
+    margin-left: 20px;
+
+    color: rgba(0,0,0,0.7);
+    font-size: 14px;
+    font-weight: 700;
+
+     text-decoration: none;
+
+}
+
 
 /**********  BELOW CSS COPIED OFF http://www.w3schools.com/css/css_navbar.asp ************/
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding-bottom: 50px;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #001;
-
-}
-
-
 
