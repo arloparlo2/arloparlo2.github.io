@@ -18,7 +18,7 @@ header {
     background-size: 800px 450px;
     background-size: cover;
     font-family: 'Open Sans', sans-serif;
-    height: 450px;
+    height: 30%;
 }
 
 .head {
@@ -41,7 +41,7 @@ header {
     color: black;
     padding-left: 20px;
     letter-spacing: 0.05em;
-    
+    margin-top: 50
 }
 
 .head-b {
