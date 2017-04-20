@@ -2,7 +2,7 @@
 
 header {
     background: url(Rocks.jpg) center center;
-    background-width: 100%; 
+    background-size: cover;
     font-family: 'Open Sans', sans-serif;
     height: 450px;
 }
